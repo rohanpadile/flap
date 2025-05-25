@@ -1,0 +1,11 @@
+  React Frontend
+       │
+       ├── HTTP ───► Spring Boot (Auth/REST)
+       │
+       └── WebSocket ───► Spring Boot (Real-Time Chat)
+                              │
+                              ├──► PostgreSQL
+                              ├──► Redis (Cache)
+                              └──► RabbitMQ ───► Python Workers
+                                               ├──► File Processing
+                                               └──► Notifications
